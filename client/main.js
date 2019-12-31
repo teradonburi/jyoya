@@ -80,21 +80,21 @@ const App = () => {
       </div>
       <button onClick={() => start(0)} disabled={isStart} style={styles.start}>開始</button>
       <ul style={styles.lists}>
-        <li style={sense === 0 ? {...styles.list, ...styles.active} : styles.list}>眼（げん）</li>
-        <li style={sense === 1 ? {...styles.list, ...styles.active} : styles.list}>耳（に）</li>
-        <li style={sense === 2 ? {...styles.list, ...styles.active} : styles.list}>鼻（び）</li>
-        <li style={sense === 3 ? {...styles.list, ...styles.active} : styles.list}>舌（ぜつ）</li>
-        <li style={sense === 4 ? {...styles.list, ...styles.active} : styles.list}>身（しん）</li>
-        <li style={sense === 5 ? {...styles.list, ...styles.active} : styles.list}>意（い）</li>
+        <li style={sense === 0 ? {...styles.list, ...styles.active} : styles.list}>眼</li>
+        <li style={sense === 1 ? {...styles.list, ...styles.active} : styles.list}>耳</li>
+        <li style={sense === 2 ? {...styles.list, ...styles.active} : styles.list}>鼻</li>
+        <li style={sense === 3 ? {...styles.list, ...styles.active} : styles.list}>舌</li>
+        <li style={sense === 4 ? {...styles.list, ...styles.active} : styles.list}>身</li>
+        <li style={sense === 5 ? {...styles.list, ...styles.active} : styles.list}>意</li>
       </ul>
       <ul style={styles.lists}>
-        <li style={status === 0 ? {...styles.list, ...styles.active} : styles.list}>好（こう）</li>
-        <li style={status === 1 ? {...styles.list, ...styles.active} : styles.list}>悪（あく）</li>
-        <li style={status === 2 ? {...styles.list, ...styles.active} : styles.list}>平（へい）</li>
+        <li style={status === 0 ? {...styles.list, ...styles.active} : styles.list}>好</li>
+        <li style={status === 1 ? {...styles.list, ...styles.active} : styles.list}>悪</li>
+        <li style={status === 2 ? {...styles.list, ...styles.active} : styles.list}>平</li>
       </ul>
       <ul style={styles.lists}>
-        <li style={goodEvil === 0 ? {...styles.list, ...styles.active} : styles.list}>浄（じょう）</li>
-        <li style={goodEvil === 1 ? {...styles.list, ...styles.active} : styles.list}>染（せん）</li>
+        <li style={goodEvil === 0 ? {...styles.list, ...styles.active} : styles.list}>浄</li>
+        <li style={goodEvil === 1 ? {...styles.list, ...styles.active} : styles.list}>染</li>
       </ul>
       <ul style={styles.lists}>
         <li style={timeline === 0 ? {...styles.list, ...styles.active} : styles.list}>前世</li>
