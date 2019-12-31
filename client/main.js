@@ -61,6 +61,10 @@ const App = () => {
       const next = num + 1
       if (next === 108) {
         setIsStart(false)
+        setSense(0)
+        setStatus(0)
+        setGoodEvil(0)
+        setTimeline(0)
         return
       }
       setSense(next % 6)
