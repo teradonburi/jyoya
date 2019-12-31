@@ -38,6 +38,7 @@ const App = () => {
     },
     image: {
       maxWidth: 400,
+      width: '95%',
     },
     audio: {
       display: 'none',
